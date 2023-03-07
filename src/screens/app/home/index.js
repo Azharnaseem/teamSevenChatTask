@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Button, ScreenWrapper } from "~components";
 import { setAppLoader } from "~redux/slices/config";
 import { selectUserMeta, setIsLoggedIn, setUserMeta } from "~redux/slices/user";
+import ScreenNames from "~routes/routes";
 import styles from "./styles";
 export default function Home({ navigation, route }) {
   const dispatch = useDispatch();
@@ -12,6 +13,10 @@ export default function Home({ navigation, route }) {
     <ScreenWrapper>
       <View style={styles.mainViewContainer}>
         <Text style={styles.title}>HOME SCREEN</Text>
+        <Button
+          title={"chat"}
+          onPress={() => navigation.navigate(ScreenNames.CHAT)}
+        />
         <Text style={styles.title}>{userInfo?.name}</Text>
         <Text style={styles.title}>{userInfo?.email}</Text>
 
@@ -23,7 +28,6 @@ export default function Home({ navigation, route }) {
               dispatch(setUserMeta(null));
               dispatch(setIsLoggedIn(false));
               dispatch(setAppLoader(false));
-
             }, 600);
           }}
         />

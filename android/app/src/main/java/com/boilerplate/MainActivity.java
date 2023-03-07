@@ -1,4 +1,4 @@
-package com.boilerplate;
+package com.chattask;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;

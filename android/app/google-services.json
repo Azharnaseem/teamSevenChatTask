@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300084956192",
+    "project_id": "teamsevenchattask",
+    "storage_bucket": "teamsevenchattask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300084956192:android:84601e1d0b252f5a648045",
+        "android_client_info": {
+          "package_name": "com.chattask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300084956192-nijavvthou8ipcrgfppld2ib0ddb36dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEqdQQxnNUYPKpkGLG6R_KhP92IfYuGc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300084956192-nijavvthou8ipcrgfppld2ib0ddb36dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

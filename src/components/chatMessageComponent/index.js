@@ -16,7 +16,6 @@ export default function ChatMessageComponent({ item, index }) {
           <View style={styles.receiverContainer}>
             <Text>{data.message}</Text>
           </View>
-          {/* <Text textStyles={styles.receiverTime}>{data.time}</Text> */}
         </>
       )}
     </View>
